@@ -1,4 +1,4 @@
-# Chapter 14 — References and Sources
+# Chapter 15 — References and Sources
 
 Merged source list from the two underlying drafts (`../tmp/fable/`, `../tmp/opus/`), grouped by the chapter they inform. Where a claim in this report rests on a specific number (MMLU deltas, token counts, efficiency multipliers, failure rates, prices), the underlying source is listed here. Foundational pre-2024 knowledge (the transformer, Adam, standard mixed precision) is treated as background and not individually cited.
 

@@ -1,6 +1,6 @@
-# Chapter 13 — Reading List
+# Chapter 14 — Reading List
 
-A curated path deeper, by topic. Dates reflect mid-2026; check for the latest revisions. Full source list with URLs and provenance notes in [References](14-references.md).
+A curated path deeper, by topic. Dates reflect mid-2026; check for the latest revisions. If you want only the must-reads, see [Essential Reading](13-essential-reading.md); the full source list with URLs and provenance notes is in [References](15-references.md).
 
 ## Scaling laws and scoping
 

@@ -28,8 +28,9 @@ A recurring theme: **pretraining is an exercise in not wasting compute.** A seri
 | 10 | [Thinking Models](10-thinking-models.md) | What reasoning models change about pretraining specifically; the moved pretraining/post-training boundary |
 | 11 | [Playbooks by Scale](11-playbooks-by-scale.md) | Concrete end-to-end recipes: 1B, 8B, 70B dense, frontier MoE |
 | 12 | [Failure Modes](12-failure-modes.md) | The ways runs die — divergence, SDC, stragglers, data starvation, checkpoint rot, silent recipe bugs |
-| 13 | [Reading List](13-reading-list.md) | A curated path deeper, by topic |
-| 14 | [References](14-references.md) | Full source list with provenance notes |
+| 13 | [Essential Reading](13-essential-reading.md) | The twelve must-read sources, as an ordered reading sequence |
+| 14 | [Reading List](14-reading-list.md) | A curated path deeper, by topic |
+| 15 | [References](15-references.md) | Full source list with provenance notes |
 
 ## Scope
 
