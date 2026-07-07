@@ -30,4 +30,9 @@ Pretraining produces a **base model**; midtraining refines it into a strong, lon
 
 The deepest recurring lesson across all seven: **everything downstream of data is a proxy for what you actually want, every proxy can be gamed, and the discipline that separates teams that ship from teams that thrash is keeping the proxies honest** — decontaminated data, audited rewards, red-teamed guardrails, verified agent trajectories, and held-out evals the training loop has never seen.
 
-*Compiled July 2026. Each series is grounded in primary technical reports and current tooling, with an essential-reading chapter and full references. Numbers reflect mid-2026 practice and are defaults to validate on your own workload, not constants.*
+## How this repository is built
+
+Compiled July 2026. Each series is grounded in primary technical reports and current tooling, with an essential-reading chapter and full references. Numbers reflect mid-2026 practice and are defaults to validate on your own workload, not constants.
+
+Built using Claude Code on Fable 5 high with the following prompt (slight difference between consecutive sessions):  
+*Today is July 5, 2026. I want you to compile a comprehensive report on how to train a LLM. Include everything from infra setup to data needs to which framework to use to thinking models to architecture to... I want to know absolutely everything. Assume only that i know basics and that i have yet to train a llm model before. Ask me any questions before you proceed.*
