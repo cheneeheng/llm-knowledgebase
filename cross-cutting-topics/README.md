@@ -31,6 +31,8 @@ A recurring theme: **the hardest LLM decisions are not technical, they are decis
 | 7 | [Privacy, Compliance, and Governance](07-privacy-compliance-governance.md) | GDPR + EU AI Act, training-data provenance and copyright, data lineage, documentation, PII |
 | 8 | [Team, Compute, and the Improvement Loop](08-team-compute-and-improvement-loop.md) | Roles and org structure, compute budgeting, the data flywheel, eval-driven development, what to prioritize |
 | 9 | [Reading List and References](09-reading-list-and-references.md) | Curated sources by topic with provenance notes |
+| A | [Appendix A: Watermarking and Content Provenance](appendix-a-watermarking-and-provenance.md) | EU AI Act Article 50 marking obligations, C2PA + SynthID dual-layer standard, text watermarking limits, why post-hoc detection fails |
+| B | [Appendix B: Sustainability](appendix-b-sustainability.md) | Energy and carbon of training and inference, the metrics, the levers (efficiency, siting, carbon-aware scheduling), what's your problem at each scale |
 
 ## Scope
 

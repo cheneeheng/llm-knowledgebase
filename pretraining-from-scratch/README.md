@@ -31,6 +31,7 @@ A recurring theme: **pretraining is an exercise in not wasting compute.** A seri
 | 13 | [Essential Reading](13-essential-reading.md) | The twelve must-read sources, as an ordered reading sequence |
 | 14 | [Reading List](14-reading-list.md) | A curated path deeper, by topic |
 | 15 | [References](15-references.md) | Full source list with provenance notes |
+| A | [Appendix A: Alternative Architectures](appendix-a-alternative-architectures.md) | State-space models and Mamba, attention-SSM hybrids (Jamba-class), diffusion language models, linear attention — what they buy, what they cost, when they should change the Chapter 5 decision |
 
 ## Scope
 
