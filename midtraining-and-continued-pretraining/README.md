@@ -36,6 +36,7 @@ The economics sit between the two neighbors. Midtraining is far cheaper than pre
 | 12 | [Failure Modes](12-failure-modes.md) | Loss spikes on re-warmup, silent forgetting, long-context degradation, tokenizer drift, mixture cliffs, decay-phase overfit |
 | 13 | [Essential Reading](13-essential-reading.md) | The must-read sources, as an ordered sequence |
 | 14 | [Reading List and References](14-reading-list-and-references.md) | A curated path deeper, plus the full source list |
+| A | [Appendix A: Knowledge Editing and Unlearning](appendix-a-knowledge-editing-and-unlearning.md) | ROME/MEMIT locate-and-edit and its brittleness, machine unlearning and the right to be forgotten, why RAG-not-weights is the architectural answer |
 
 ## Scope
 
