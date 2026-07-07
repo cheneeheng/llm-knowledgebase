@@ -11,4 +11,8 @@ The reports below follow the training lifecycle in order. Read them in sequence,
 3. [Post-Training an LLM: The Complete Playbook](post-training-from-scratch/README.md) — base model to assistant, reasoner, and agent: SFT, preference optimization, reward models, RLHF, RLVR, agentic RL, distillation, safety.
 4. [Serving an LLM: The Complete Inference Playbook](inference-and-serving/README.md) — trained checkpoint to production endpoint: inference anatomy, KV cache, batching, serving engines, quantization, speculative decoding, reasoning-model serving, hardware, and economics.
 
-Further series (multimodal training and cross-cutting topics) are in progress.
+### Cross-cutting series
+
+- [Training a Multimodal Model: The Complete Playbook](multimodal-training/README.md) — text LLM to a model that sees, hears, and speaks: vision encoders, connectors, native fusion, image/audio/video data, omni models, multimodal post-training, and evaluation.
+
+Further cross-cutting topics are in progress.
