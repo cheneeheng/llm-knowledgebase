@@ -2,7 +2,7 @@
 
 *From a trained checkpoint to a production endpoint — the anatomy of inference, KV cache, batching, serving engines, quantization, speculative decoding, reasoning-model serving, hardware, and the economics that decide whether any of it is affordable.*
 
-*Compiled July 2026. The third act after [Training an LLM From Scratch](../pretraining-from-scratch/README.md), [Midtraining](../midtraining-and-continued-pretraining/README.md), and [Post-Training](../post-training-from-scratch/README.md). Assumes you have a model (trained or downloaded) and now have to serve it to users at a cost that makes sense. Assumes you know what a transformer is; assumes nothing about GPUs-as-a-service or serving systems.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). The third act after [Training an LLM From Scratch](../pretraining-from-scratch/README.md), [Midtraining](../midtraining-and-continued-pretraining/README.md), and [Post-Training](../post-training-from-scratch/README.md). Assumes you have a model (trained or downloaded) and now have to serve it to users at a cost that makes sense. Assumes you know what a transformer is; assumes nothing about GPUs-as-a-service or serving systems.*
 
 ---
 
@@ -37,6 +37,7 @@ A recurring theme: **inference is an exercise in filling GPU memory bandwidth wi
 | 13 | [Playbooks by Scale](13-playbooks-by-scale.md) | Concrete recipes: local single-GPU, one-node API, multi-node production, frontier reasoning fleet |
 | 14 | [Failure Modes](14-failure-modes.md) | OOM under load, KV thrash, latency cliffs, quantization quality regressions, cold-start storms |
 | 15 | [Essential Reading and References](15-essential-reading-and-references.md) | The must-read sources, ordered, plus the full source list |
+| A | [Appendix A: September 2026 Update](appendix-a-september-2026-update.md) | Co-designed KV cache (FP4 KV, cross-layer sharing), hybrid-state prefix caching, block-diffusion speculative drafting (DFlash), vLLM/SGLang summer releases, serving 2T+ open models, Rubin/Helios, falling prices |
 
 ## Scope
 

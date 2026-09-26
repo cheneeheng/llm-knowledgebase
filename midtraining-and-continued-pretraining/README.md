@@ -2,7 +2,7 @@
 
 *The stage between a base model and a post-trained one — annealing, long-context extension, continued pretraining, domain adaptation, tokenizer surgery, and reasoning injection.*
 
-*Compiled July 2026. The bridge between [Training an LLM From Scratch](../pretraining-from-scratch/README.md) and [Post-Training an LLM](../post-training-from-scratch/README.md). Assumes you have read (or could have written) those two — you know what a base model is, what a data mixture is, what a learning-rate schedule does, and what SFT and RL are for. Covers all scales, oriented around cloud GPU clusters.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). The bridge between [Training an LLM From Scratch](../pretraining-from-scratch/README.md) and [Post-Training an LLM](../post-training-from-scratch/README.md). Assumes you have read (or could have written) those two — you know what a base model is, what a data mixture is, what a learning-rate schedule does, and what SFT and RL are for. Covers all scales, oriented around cloud GPU clusters.*
 
 ---
 
@@ -37,6 +37,7 @@ The economics sit between the two neighbors. Midtraining is far cheaper than pre
 | 13 | [Essential Reading](13-essential-reading.md) | The must-read sources, as an ordered sequence |
 | 14 | [Reading List and References](14-reading-list-and-references.md) | A curated path deeper, plus the full source list |
 | A | [Appendix A: Knowledge Editing and Unlearning](appendix-a-knowledge-editing-and-unlearning.md) | ROME/MEMIT locate-and-edit and its brittleness, machine unlearning and the right to be forgotten, why RAG-not-weights is the architectural answer |
+| B | [Appendix B: Continual Learning, Test-Time Training, and the September 2026 Update](appendix-b-continual-learning-and-september-2026-update.md) | Refresh cadences and cumulative replay, why RL forgets less, deployment-time learning guardrails, TTT/Titans-style test-time memory, long context moving into pretraining |
 
 ## Scope
 
