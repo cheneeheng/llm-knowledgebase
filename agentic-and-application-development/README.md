@@ -2,7 +2,7 @@
 
 *From a served model to a working product — context engineering, tool design, agent architectures, memory, multi-agent systems, RAG systems, orchestration frameworks, application evaluation, and production reliability.*
 
-*Compiled July 2026. The application layer atop the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), [inference](../inference-and-serving/README.md), [multimodal](../multimodal-training/README.md), and [cross-cutting](../cross-cutting-topics/README.md) series. Assumes you have (or can call) a capable served model; assumes nothing about building agents or RAG systems. This is the series for the far larger population that never trains a model at all.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). The application layer atop the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), [inference](../inference-and-serving/README.md), [multimodal](../multimodal-training/README.md), and [cross-cutting](../cross-cutting-topics/README.md) series. Assumes you have (or can call) a capable served model; assumes nothing about building agents or RAG systems. This is the series for the far larger population that never trains a model at all.*
 
 ---
 
@@ -35,6 +35,8 @@ A recurring theme, inherited from the whole knowledge base and sharpened here: *
 | 11 | [Playbooks by Scale](11-playbooks-by-scale.md) | Recipes: a RAG chatbot, a single production agent, an agentic RAG system, a multi-agent platform |
 | 12 | [Failure Modes](12-failure-modes.md) | Context rot, tool confusion, runaway loops, false success, coordination collapse, eval theater |
 | 13 | [Essential Reading and References](13-essential-reading-and-references.md) | The must-read sources, ordered, plus the full source list |
+| A | [Appendix A: September 2026 Update](appendix-a-september-2026-update.md) | MCP 2026-07-28 (stateless core, MRTR, extensions, auth hardening), A2A 1.0, Agent Skills, coding-agent incidents and guardrails, tier × effort routing |
+| B | [Appendix B: Automatic Prompt Optimization](appendix-b-automatic-prompt-optimization.md) | Prompts as trainable parameters, DSPy MIPROv2 and GEPA reflective evolution, where it sits vs fine-tuning, metric exploitation, re-optimizing on model migration |
 
 ## Scope
 

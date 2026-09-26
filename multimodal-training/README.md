@@ -2,7 +2,7 @@
 
 *From a text LLM to a model that sees, hears, and speaks — vision encoders, connectors, native fusion, image/audio/video data, omni models, multimodal post-training, and evaluation.*
 
-*Compiled July 2026. A companion to the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), and [inference](../inference-and-serving/README.md) series. Assumes you know how a text LLM is trained (those series) and what a transformer and attention are; assumes nothing about vision or audio modeling. Covers all scales, from bolting a vision encoder onto an 8B in an afternoon to training a native omni model.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). A companion to the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), and [inference](../inference-and-serving/README.md) series. Assumes you know how a text LLM is trained (those series) and what a transformer and attention are; assumes nothing about vision or audio modeling. Covers all scales, from bolting a vision encoder onto an 8B in an afternoon to training a native omni model.*
 
 ---
 
@@ -36,6 +36,7 @@ A recurring theme: **multimodal training is mostly a data and alignment problem,
 | 12 | [Playbooks by Scale](12-playbooks-by-scale.md) | Recipes: LoRA a VLM on one GPU, an 8B VLM, a frontier VLM, a native omni model |
 | 13 | [Failure Modes](13-failure-modes.md) | Hallucination, modality imbalance, resolution starvation, connector collapse, catastrophic text forgetting |
 | 14 | [Essential Reading and References](14-essential-reading-and-references.md) | The must-read sources, ordered, plus the full source list |
+| A | [Appendix A: September 2026 Update](appendix-a-september-2026-update.md) | Native multimodality as the open-frontier default, agentic omni models (Qwen3.8-Omni, Nemotron 3 Nano Omni), Gemma 4, encoder/prefill/decode disaggregated serving, multimodal embeddings, embodied reasoning |
 
 ## Scope
 

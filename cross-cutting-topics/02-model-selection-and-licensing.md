@@ -40,6 +40,7 @@ The load-bearing detail, because a license clause is a constraint that invalidat
 | **Apache 2.0** | Qwen3/3.5, Gemma 4, Mistral Small 4, OLMo | Yes, unconditional | The gold standard; patent grant included |
 | **MIT** | DeepSeek V4/R1, Phi-4 | Yes, unconditional | Gold standard; minimal, permissive |
 | **Custom community license** | Llama 4 (Meta) | Yes, *with conditions* | **The 700M-MAU threshold** and acceptable-use/naming clauses |
+| **Custom revenue-gated (MaaS)** *(added Sept 2026)* | Kimi K3; GLM-5.3 (full model) | Yes, *but hosted-model-service use needs a separate agreement above a revenue threshold* | Clauses keyed to **deployment type and group revenue**, not usage; see [Appendix C.1](appendix-c-september-2026-update.md) |
 | **Open-RAIL** | StarCoder 2, some others | Yes, *with use restrictions* | Behavioral use restrictions (no specified harmful uses) |
 | **Non-commercial / research** | some releases | **No commercial use** | Deployable for research only — a common trap |
 

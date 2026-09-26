@@ -2,7 +2,7 @@
 
 *Model selection and licensing, small and on-device models, embeddings and retrieval, interpretability, production security, privacy and compliance, and the org/compute/improvement loop — the topics that don't belong to one training stage because they touch all of them.*
 
-*Compiled July 2026. The capstone to the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), [inference](../inference-and-serving/README.md), and [multimodal](../multimodal-training/README.md) series. Assumes familiarity with those — this series is the connective tissue between them, not a from-scratch introduction.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). The capstone to the [pretraining](../pretraining-from-scratch/README.md), [midtraining](../midtraining-and-continued-pretraining/README.md), [post-training](../post-training-from-scratch/README.md), [inference](../inference-and-serving/README.md), and [multimodal](../multimodal-training/README.md) series. Assumes familiarity with those — this series is the connective tissue between them, not a from-scratch introduction.*
 
 ---
 
@@ -33,6 +33,7 @@ A recurring theme: **the hardest LLM decisions are not technical, they are decis
 | 9 | [Reading List and References](09-reading-list-and-references.md) | Curated sources by topic with provenance notes |
 | A | [Appendix A: Watermarking and Content Provenance](appendix-a-watermarking-and-provenance.md) | EU AI Act Article 50 marking obligations, C2PA + SynthID dual-layer standard, text watermarking limits, why post-hoc detection fails |
 | B | [Appendix B: Sustainability](appendix-b-sustainability.md) | Energy and carbon of training and inference, the metrics, the levers (efficiency, siting, carbon-aware scheduling), what's your problem at each scale |
+| C | [Appendix C: September 2026 Update](appendix-c-september-2026-update.md) | Revenue-gated MaaS licenses, Meta's open/closed shift, EU AI Act Omnibus and live GPAI enforcement, the US regulatory picture (SB 53, federal EOs, export controls), cyber-capability gating, agent incidents and supply chain |
 
 ## Scope
 

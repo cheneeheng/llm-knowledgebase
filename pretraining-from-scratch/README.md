@@ -2,7 +2,7 @@
 
 *From cluster procurement to your first trillion tokens — everything up to (but not including) post-training.*
 
-*Compiled July 2026. Assumes you know what a transformer is (attention, MLP blocks, residual stream, backprop) but have never trained an LLM. Covers all scales, oriented around cloud GPU clusters. Synthesized from two independent drafts (see `../tmp/`) plus their source lists.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). Assumes you know what a transformer is (attention, MLP blocks, residual stream, backprop) but have never trained an LLM. Covers all scales, oriented around cloud GPU clusters. Synthesized from two independent drafts (see `../tmp/`) plus their source lists.*
 
 ---
 
@@ -32,6 +32,7 @@ A recurring theme: **pretraining is an exercise in not wasting compute.** A seri
 | 14 | [Reading List](14-reading-list.md) | A curated path deeper, by topic |
 | 15 | [References](15-references.md) | Full source list with provenance notes |
 | A | [Appendix A: Alternative Architectures](appendix-a-alternative-architectures.md) | State-space models and Mamba, attention-SSM hybrids (Jamba-class), diffusion language models, linear attention — what they buy, what they cost, when they should change the Chapter 5 decision |
+| B | [Appendix B: September 2026 Update](appendix-b-september-2026-update.md) | Kimi K3 / DeepSeek-V4 / Qwen3.8 reference designs, hybrid linear attention at frontier scale, Attention Residuals and mHC, LatentMoE, NVFP4 pretraining at 20T tokens, Muon at trillion scale, Rubin/Helios/MLPerf v6.0 |
 
 ## Scope
 
