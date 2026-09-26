@@ -32,6 +32,8 @@ The **Model Context Protocol (MCP)** standardized how tools are packaged and ser
 
 Default: **build your integrations as MCP servers** unless you have a reason not to — the portability is free and the packaging discipline is healthy. Hand-rolled tool plumbing is legacy the day it's written.
 
+*September 2026 update: the MCP 2026-07-28 specification made the protocol stateless (no sessions or initialization handshake), deprecated roots, sampling, and logging, and hardened authorization. See [Appendix A.1](appendix-a-september-2026-update.md) before building new servers.*
+
 ## 3.5 Permissions and blast radius
 
 Tools are where an agent's text becomes action, so tools are where safety becomes concrete (the containment story of cross-cutting Ch 6.3, applied at design time):

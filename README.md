@@ -30,9 +30,21 @@ Pretraining produces a **base model**; midtraining refines it into a strong, lon
 
 The deepest recurring lesson across all seven: **everything downstream of data is a proxy for what you actually want, every proxy can be gamed, and the discipline that separates teams that ship from teams that thrash is keeping the proxies honest** — decontaminated data, audited rewards, red-teamed guardrails, verified agent trajectories, and held-out evals the training loop has never seen.
 
+## September 2026 update
+
+Each series has a September 2026 update appendix. Each one covers what changed between July and September 2026, plus topics the original compilation missed. Start with the appendix for the stage you work on:
+
+- **Pretraining** — [Appendix B](pretraining-from-scratch/appendix-b-september-2026-update.md): hybrid linear attention at 2.8T scale (Kimi K3), learned residual paths, LatentMoE, 20T-token NVFP4 pretraining, Muon at trillion scale, Rubin/Helios.
+- **Midtraining** — [Appendix B](midtraining-and-continued-pretraining/appendix-b-continual-learning-and-september-2026-update.md): continual learning and test-time training *(previously missing)*, and long-context extension moving into pretraining.
+- **Post-training** — [Appendix A](post-training-from-scratch/appendix-a-september-2026-update.md): specialist RL plus consolidation, reasoning effort as a trained behavior *(previously missing)*, and cyber capability as a release gate.
+- **Inference** — [Appendix A](inference-and-serving/appendix-a-september-2026-update.md): KV cache co-designed with the model, hybrid-state caching, block-diffusion speculative drafting *(previously missing)*, and serving 2T+ open models.
+- **Multimodal** — [Appendix A](multimodal-training/appendix-a-september-2026-update.md): native multimodality as the open default, agentic omni models, and encoder-disaggregated serving *(previously missing)*.
+- **Cross-cutting** — [Appendix C](cross-cutting-topics/appendix-c-september-2026-update.md): revenue-gated licenses, the EU AI Act in force, the US regulatory picture *(previously missing)*, and the agent supply chain.
+- **Applications** — [Appendix A](agentic-and-application-development/appendix-a-september-2026-update.md): MCP 2026-07-28, A2A 1.0, and Agent Skills *(previously missing)*; plus [Appendix B](agentic-and-application-development/appendix-b-automatic-prompt-optimization.md): automatic prompt optimization with DSPy and GEPA *(previously missing)*.
+
 ## How this repository is built
 
-Compiled July 2026. Each series is grounded in primary technical reports and current tooling, with an essential-reading chapter and full references. Numbers reflect mid-2026 practice and are defaults to validate on your own workload, not constants.
+Compiled July 2026 and updated September 2026. Each series is grounded in primary technical reports and current tooling, with an essential-reading chapter and full references. Numbers reflect mid-2026 practice and are defaults to validate on your own workload, not constants.
 
 Built using Claude Code on Fable 5 high with the following prompt (slight difference between consecutive sessions):  
 *Today is July 5, 2026. I want you to compile a comprehensive report on how to train a LLM. Include everything from infra setup to data needs to which framework to use to thinking models to architecture to... I want to know absolutely everything. Assume only that i know basics and that i have yet to train a llm model before. Ask me any questions before you proceed.*

@@ -2,7 +2,7 @@
 
 *From base model to assistant, reasoner, and agent — SFT, preference optimization, reward models, RLHF, RLVR, distillation, safety.*
 
-*Compiled July 2026. Companion to [Training an LLM From Scratch](../pretraining-from-scratch/README.md). Assumes you know what a transformer is and what reinforcement learning is (policy, reward, on/off-policy) but have never post-trained a model. Covers all scales, from a single consumer GPU to a frontier pipeline.*
+*Compiled July 2026; updated September 2026 (see the September 2026 update appendix). Companion to [Training an LLM From Scratch](../pretraining-from-scratch/README.md). Assumes you know what a transformer is and what reinforcement learning is (policy, reward, on/off-policy) but have never post-trained a model. Covers all scales, from a single consumer GPU to a frontier pipeline.*
 
 ---
 
@@ -35,6 +35,7 @@ The economics are inverted relative to pretraining. Pretraining is one long, exp
 | 17 | [Essential Reading](17-essential-reading.md) | The twelve must-read sources, as an ordered reading sequence |
 | 18 | [Reading List](18-reading-list.md) | A curated path deeper, by topic |
 | 19 | [References](19-references.md) | Full source list with provenance notes |
+| A | [Appendix A: September 2026 Update](appendix-a-september-2026-update.md) | Kimi K3's specialists-plus-consolidation recipe, reasoning effort as a trained behavior, the coverage principle, rubric-reward consolidation, cyber capability as a release gate, Terminal-Bench 3.0 |
 
 ## Scope
 

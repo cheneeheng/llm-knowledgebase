@@ -52,7 +52,7 @@ Practical tuning loop: pick the smallest TP that fits memory → add PP only whe
 
 **FP4 is the bleeding edge — not yet a safe default.** Blackwell exposes native FP4 (E2M1); MI355X supports MXFP4. Recipes (Quartet/MXFP4, UFP4) show near-lossless 4-bit pretraining becoming viable, and 2026 releases use FP4-QAT on MoE expert weights — but E2M1's non-uniform grid has a documented "shrinkage bias" instability and recipes are still being worked out. Watch; don't bet a first run on it.
 
-**Recommendation ladder: BF16 first run → FP8/MXFP8 once you have a stable baseline (and ideally Blackwell) → FP4 only as a research bet.**
+**Recommendation ladder: BF16 first run → FP8/MXFP8 once you have a stable baseline (and ideally Blackwell) → FP4 only as a research bet.** *(September 2026 update: NVIDIA's Nemotron 3 Ultra shipped a 20T-token NVFP4 pretraining recipe with a <0.4% loss gap to BF16. FP4 is now a defensible option at scale when you copy a published recipe exactly, but it is still not for a first run. See [Appendix B.5](appendix-b-september-2026-update.md).)*
 
 ## 7.5 Kernels and throughput
 
